@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://grupoinntec.com.mx/conferencias/';
-$config['base_url'] = (ENVIRONMENT !== 'production') ? 'http://localhost:100/final_admonweek/' : $config['base_url'];
+$config['base_url'] = 'https://tesvg.org/conferencias_prueba/';
+$config['base_url'] = (ENVIRONMENT !== 'production') ? 'http://localhost:100/final_admonweek_try/' : $config['base_url'];
 /*
 |--------------------------------------------------------------------------
 | Index File
