@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'https://tesvg.org/conferencias_prueba/';
-$config['base_url'] = (ENVIRONMENT !== 'production') ? 'http://localhost:100/final_admonweek_try/' : $config['base_url'];
+$config['base_url'] = (ENVIRONMENT !== 'production') ? 'https://tesvg.org/conferencias_prueba/' : $config['base_url'];
 /*
 |--------------------------------------------------------------------------
 | Index File
