@@ -75,9 +75,9 @@ $query_builder = TRUE;
 $db['default'] = [
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => (ENVIRONMENT === 'production') ? 'u180000363_conf_try' : 'u180000363_conf_try',
+	'username' => (ENVIRONMENT === 'production') ? 'u180000363_conf_try' : 'u180000363_conf_try_develop',
 	'password' => (ENVIRONMENT === 'production') ? 'yF6nU+Y@dP' : 'yF6nU+Y@dP',
-	'database' => (ENVIRONMENT === 'production') ? 'u180000363_conf_try' : 'u180000363_conf_try',
+	'database' => (ENVIRONMENT === 'production') ? 'u180000363_conf_try' : 'u180000363_conf_try_develop',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'ia_',
 	'pconnect' => FALSE,
